@@ -13,7 +13,7 @@ const CORAL = Color("ff837f")
 const STAGES = [
 	{"name":"珊瑚浅湾","boss":"红鳍鲨","note":"躲开冲刺，吃掉它身后的鱼群。","hp":60.0,"min_size":24.0,"pursuit":132.0,"size":48.0,"limit":31.0,"color":CORAL,"attacks":["charge"],"top":Color("d8f5ed"),"bottom":Color("a9d5d8")},
 	{"name":"断礁水道","boss":"双尾猎手","note":"连续冲刺后会布置陷阱，留好移动空间。","hp":125.0,"min_size":29.0,"pursuit":149.0,"size":60.0,"limit":41.0,"color":Color("edac65"),"attacks":["double","fan","mines"],"top":Color("e3f4e8"),"bottom":Color("afd3ce")},
-	{"name":"电流海沟","boss":"电鳗","note":"三轮电弹会扫过不同方向，及时换位。","hp":175.0,"min_size":34.0,"pursuit":160.0,"size":69.0,"limit":41.0,"color":Color("a897f2"),"attacks":["fan","charge","sweep","fan_burst"],"top":Color("e6f0fa"),"bottom":Color("b2cddd")},
+	{"name":"电流海沟","boss":"电鳗","note":"三轮电弹会扫过不同方向，及时换位。","hp":175.0,"min_size":34.0,"pursuit":160.0,"size":69.0,"limit":47.0,"color":Color("a897f2"),"attacks":["fan","charge","sweep","fan_burst"],"top":Color("e6f0fa"),"bottom":Color("b2cddd")},
 	{"name":"针刺礁","boss":"刺球鱼","note":"两轮交错针刺之间留有空隙，别停在陷阱上。","hp":240.0,"min_size":40.0,"pursuit":160.0,"size":80.0,"limit":49.0,"color":Color("ce9ace"),"attacks":["radial","mines","radial_burst","charge"],"top":Color("f1ebf6"),"bottom":Color("c2cbdd")},
 	{"name":"沉船暗流","boss":"灯笼鱼","note":"吸水后接扫射，留好冲刺和护泡。","hp":330.0,"min_size":46.0,"pursuit":168.0,"size":92.0,"limit":59.0,"color":Color("82c5cc"),"attacks":["suction","mines","double","sweep"],"top":Color("ddf2ed"),"bottom":Color("a4cecd")},
 	{"name":"风暴海眼","boss":"风暴巨口","note":"旋转针刺、扫射和连冲交替出现。","hp":450.0,"min_size":53.0,"pursuit":180.0,"size":105.0,"limit":67.0,"color":Color("dd7f9c"),"attacks":["double","radial_burst","suction","sweep","mines","spiral"],"top":Color("e4eff8"),"bottom":Color("aecbdc")}
