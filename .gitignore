@@ -1,0 +1,6 @@
+/engine/
+/work/
+/releases/
+/game/.godot/
+*.tmp
+*.log
